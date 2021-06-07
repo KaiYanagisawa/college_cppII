@@ -1,0 +1,104 @@
+Yokozuna
+Kakuryu
+	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Intai
+
+
+OOzeki
+Asanoyama
+	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi
+	Takarafuji 	Takayasu 	Hokutofuji 	Ounoshou 	Meisei 	Wakatakakage 	Kiribayama 	Daieishou 	Shimanoumi 	Takanoshou 	Myougiryu 	Mitakeumi 	Takakeishou 	Terunofuji 	Shoudai
+
+Sekiwake
+Takanoshou
+	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi
+	Wakatakakage 	Hokutofuji 	Mitakeumi 	Shimanoumi 	Takarafuji 	Ounoshou 	Daieishou 	Meisei 	Kiribayama 	Asanoyama 	Terunofuji 	Shoudai 	Myougiryu 	Ichinojou 	Tochinoshin
+
+Komusubi
+Mitakeumi
+	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi
+	Shoudai 	Meisei 	Takanoshou 	Wakatakakage 	Daieishou 	Takayasu 	Terunofuji 	Takarafuji 	Takakeishou 	Ounoshou 	Hokutofuji 	Asanoyama 	Tamawashi 	Myougiryu 	Ichinojou
+
+Komusubi
+Daieishou
+	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi
+	Hakuhou 	Takakeishou 	Terunofuji 	Takayasu 	Mitakeumi 	Takarafuji 	Takanoshou 	Asanoyama 	Shoudai 	Hokutofuji 	Ounoshou 	Wakatakakage 	Meisei 	Kiribayama 	Akiseyama
+
+Maegashira_Hittou
+Ounoshou
+	Kuroboshi 	Kuroboshi 	Fusenshou 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi
+	Takakeishou 	Shoudai 	Hakuhou 	Asanoyama 	Terunofuji 	Takanoshou 	Hokutofuji 	Wakatakakage 	Takayasu 	Mitakeumi 	Daieishou 	Kiribayama 	Takarafuji 	Shimanoumi 	Chiyoshouma
+
+Maegashira_Nimaime
+Wakatakakage
+	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi
+	Takanoshou 	Terunofuji 	Takakeishou 	Mitakeumi 	Shoudai 	Asanoyama 	Myougiryu 	Ounoshou 	Meisei 	Takarafuji 	Tamawashi 	Daieishou 	Takayasu 	Aoiyama 	Hokutofuji
+
+Maegashira_Sanmaime
+Shimanoumi
+	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi
+	Kiribayama 	Myougiryu 	Takayasu 	Takanoshou 	Endo 	Takakeishou 	Shoudai 	Hokutofuji 	Asanoyama 	Terunofuji 	Takarafuji 	Kagayaki 	Okinoumi 	Ounoshou 	Chiyotairyu
+
+Maegashira_Yonmaime
+Myougiryu
+	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi
+	Endo 	Shimanoumi 	Okinoumi 	Tamawashi 	Ichinojou 	Hokutofuji 	Wakatakakage 	Takakeishou 	Terunofuji 	Shoudai 	Asanoyama 	Chiyonokuni 	Takanoshou 	Mitakeumi 	Ryuden
+
+Maegashira_Gomaime
+Okinoumi
+	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi
+	Tamawashi 	Ichinojou 	Myougiryu 	Kiribayama 	Tochinoshin 	Endo 	Kagayaki 	Kotonowaka 	Tobizaru 	Chiyonokuni 	Houshouryu 	Takakeishou 	Shimanoumi 	Takarafuji 	Midorifuji
+
+Maegashira_Rokumaime
+Ichinojou
+	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi
+	Tochinoshin 	Okinoumi 	Kagayaki 	Endo 	Myougiryu 	Tamawashi 	Tobizaru 	Chiyonokuni 	Houshouryu 	Kotonowaka 	Meisei 	Midorifuji 	Hokutofuji 	Takanoshou 	Mitakeumi
+
+Maegashira_Nanamaime
+Kagayaki
+	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi
+	Kotonowaka 	Tobizaru 	Ichinojou 	Tochinoshin 	Tamawashi 	Chiyonokuni 	Okinoumi 	Endo 	Kaisei 	Chiyotairyu 	Midorifuji 	Shimanoumi 	Houshouryu 	Terutsuyoshi 	Kotoekou
+
+Maegashira_Hachimaime
+Tobizaru
+	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi
+	Chiyonokuni 	Kagayaki 	Houshouryu 	Kotonowaka 	Midorifuji 	Tochinoshin 	Ichinojou 	Terutsuyoshi 	Okinoumi 	Chiyoshouma 	Kotoekou 	Meisei 	Aoiyama 	Takayasu 	Kaisei
+
+Maegashira_Kyumaime
+Houshouryu
+	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi
+	Midorifuji 	Ryuden 	Tobizaru 	Chiyonokuni 	Kotonowaka 	Chiyotairyu 	Aoiyama 	Tamawashi 	Ichinojou 	Kaisei 	Okinoumi 	Akiseyama 	Kagayaki 	Daiamami 	Hidenoumi
+
+Maegashira_Jumaime
+Ryuden
+	Kuroboshi 	Kuroboshi 	Fusenshou 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi
+	Chiyotairyu 	Houshouryu 	Kotoshouhou 	Akiseyama 	Chiyonokuni 	Aoiyama 	Kotoekou 	Hidenoumi 	Tochinoshin 	Tsurugishou 	Kotonowaka 	Toyoyama 	Chiyoshouma 	Hokutofuji 	Myougiryu
+
+Maegashira_Juichimaime
+Kotoshouhou
+	Kuroboshi 	Kuroboshi 	Fusenpai 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Yasumi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi
+	Akiseyama 	Aoiyama 	Ryuden 									Terutsuyoshi 	Hidenoumi 	Chiyoshouma 	Tokushoryu
+
+Maegashira_Junimaime
+Aoiyama
+	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi
+	Terutsuyoshi 	Kotoshouhou 	Chiyoshouma 	Midorifuji 	Chiyotairyu 	Ryuden 	Houshouryu 	Tsurugishou 	Akiseyama 	Kotoekou 	Toyoyama 	Daiamami 	Tobizaru 	Wakatakakage 	Takayasu
+
+Maegashira_Jusanmaime
+Chiyoshouma
+	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi
+	Kotoekou 	Tsurugishou 	Aoiyama 	Kaisei 	Akiseyama 	Daiamami 	Midorifuji 	Toyoyama 	Terutsuyoshi 	Tobizaru 	Hidenoumi 	Kotonowaka 	Ryuden 	Kotoshouhou 	Ounoshou
+
+Maegashira_Juyonmaime
+Tsurugishou
+	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Fusenshou 	Shiroboshi 	Kuroboshi
+	Toyoyama 	Chiyoshouma 	Kaisei 	Hidenoumi 	Chiyomaru 	Terutsuyoshi 	Chiyotairyu 	Aoiyama 	Kotoekou 	Ryuden 	Akiseyama 	Chiyonoou 	Chiyonokuni 	Midorifuji 	Meisei
+
+Maegashira_Jugomaime
+Hidenoumi
+	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi
+	Kaisei 	Daiamami 	Ishiura 	Tsurugishou 	Kotoekou 	Toyoyama 	Terutsuyoshi 	Ryuden 	Daishoumaru 	Midorifuji 	Chiyoshouma 	Chiyotairyu 	Kotoshouhou 	Tochinoshin 	Houshouryu
+
+Maegashira_Jurokumaime
+Daiamami
+	Shiroboshi 	Kuroboshi 	Shiroboshi 	Kuroboshi 	Kuroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Kuroboshi 	Shiroboshi 	Shiroboshi 	Shiroboshi
+	Tokushoryu 	Hidenoumi 	Toyoyama 	Kotoekou 	Kaisei 	Chiyoshouma 	Akua 	Akiseyama 	Midorifuji 	Terutsuyoshi 	Chiyonokuni 	Aoiyama 	Chiyotairyu 	Houshouryu 	Kotonowaka

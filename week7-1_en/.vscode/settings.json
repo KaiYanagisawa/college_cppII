@@ -1,0 +1,8 @@
+{
+    "git.ignoreLimitWarning": true,
+    "files.associations": {
+        "vector": "cpp",
+        "iostream": "cpp",
+        "iterator": "cpp"
+    }
+}
