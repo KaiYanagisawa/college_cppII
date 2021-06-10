@@ -10,52 +10,75 @@ class Record
 
 public:
   /* コンストラクタを定義*/
-  Record(){
-
-  };
+  Record() {}
   int shiro()
   {
     int shiro{0};
     /* 白星または不戦勝の数を計算*/
+    for (auto e : score)
+    {
+      if (e == "Shiroboshi" || e == "Fusenshou")
+        shiro++;
+    }
     return shiro;
   }
-  //   int kuro()
-  //   {
-  //     int kuro{0};
-  //     /*黒星または不戦敗の数を計算*/
-  //     return kuro;
-  //   }
-  //   int yasumi()
-  //   {
-  //     int yasumi{0};
-  //     /*やすみの数を計算*/
-  //     return yasumi;
-  //   }
+  int kuro()
+  {
+    int kuro{0};
+    /*黒星または不戦敗の数を計算*/
+    for (auto e : score)
+    {
+      if (e == "Kuroboshi" || e == "Fusenpai")
+        kuro++;
+    }
+    return kuro;
+  }
+  int yasumi()
+  {
+    int yasumi{0};
+    /*やすみの数を計算*/
+    for (auto e : score)
+    {
+      if (e == "yasumi")
+        yasumi++;
+    }
+    return yasumi;
+  }
 
-  //   std::string get_r()
-  //   { /*rankに対するゲッター*/
-  //   }
-  //   std::string get_n()
-  //   { /*nameに対するゲッター*/
-  //   }
-  //   std::vector<std::string> get_s()
-  //   { /*scoreに対するゲッター*/
-  //   }
-  //   std::vector<std::string> get_a()
-  //   { /*aiteに対するゲッター*/
-  //   }
-  //   void set_r(std::string r)
-  //   { /*rankに対するセッター*/
-  //   }
-  //   void set_n(std::string n)
-  //   { /*nameに対するセッター*/
-  //   }
-  //   void set_s(std::vector<std::string> s)
-  //   { /*scoreに対するセッター*/
-  //   }
-  //   void set_a(std::vector<std::string> a)
-  //   { /*aiteに対するセッター*/
-  //   }
+  std::string get_r()
+  { /*rankに対するゲッター*/
+    return rank;
+  }
+  std::string get_n()
+  { /*nameに対するゲッター*/
+    return name;
+  }
+  std::vector<std::string> get_s()
+  { /*scoreに対するゲッター*/
+    return score;
+  }
+  std::vector<std::string> get_a()
+  { /*aiteに対するゲッター*/
+    return aite;
+  }
+  void set_r(std::string r)
+  { /*rankに対するセッター*/
+    rank = r;
+  }
+  void set_n(std::string n)
+  { /*nameに対するセッター*/
+    name = n;
+  }
+  void set_s(std::vector<std::string> s)
+  { /*scoreに対するセッター*/
+    for (auto e : s)
+      score.push_back(e);
+  }
+  void set_a(std::vector<std::string> a)
+  { /*aiteに対するセッター*/
+    for (auto e : a)
+      aite.push_back(e);
+  }
 
   void print()
   {
@@ -77,86 +100,111 @@ class Table
   friend Record;
   std::vector<Record> v;
 
-  // public:
-  //   void add(Record r)
-  //   {
-  //     /*vにrを追加*/
-  //   }
-  //   void print()
-  //   {
-  //     for (auto e : v)
-  //     {
-  //       e.print();
-  //     }
-  //   }
-  //   void sort()
-  //   {
-  //     size_t n = v.size();
-  //     for (size_t i = 0; i < v.size() - 1; i++)
-  //     {
-  //       size_t max{i};
-  //       for (size_t j = i + 1; j < v.size(); j++)
-  //         /*勝敗(白星，不戦勝，黒星，不戦敗)によってvをソートする（選択ソート）*/
-  //         std::swap(v[i], v[max]);
-  //     }
-  //   }
-  //   void result(std::ofstream &fout)
-  //   {
-  //     for (auto e : v)
-  //     {
-  //       if (e.yasumi() > 0)
-  //         fout << std::setw(22) << e.get_r() << std::setw(20) << e.get_n() << std::setw(5) << e.shiro() << "Shou" << std::setw(5) << e.kuro() << "Hai" << std::setw(5) << e.yasumi() << "Kyu" << std::endl;
-  //       else
-  //         fout << std::setw(22) << e.get_r() << std::setw(20) << e.get_n() << std::setw(5) << e.shiro() << "Shou" << std::setw(5) << e.kuro() << "Hai" << std::endl;
-  //     }
-  //   }
-  // };
+public:
+  void add(Record r)
+  {
+    /*vにrを追加*/
+    v.push_back(r);
+  }
+  void print()
+  {
+    for (auto e : v)
+    {
+      e.print();
+    }
+  }
+  void sort()
+  {
+    size_t n = v.size();
+    for (size_t i = 0; i < v.size() - 1; i++)
+    {
+      size_t max{i};
+      for (size_t j = i + 1; j < v.size(); j++)
+      /*勝敗(白星，不戦勝，黒星，不戦敗)によってvをソートする（選択ソート）*/
+      {
+        if (v[j].shiro() > v[max].shiro())
+          max = j;
+        else if (v[j].shiro() == v[max].shiro())
+        {
+          if (v[j].kuro() < v[max].kuro())
+            max = j;
+        }
+        std::swap(v[i], v[max]);
+      }
+    }
+  }
+  void result(std::ofstream &fout)
+  {
+    for (auto e : v)
+    {
+      if (e.yasumi() > 0)
+        fout << std::setw(22) << e.get_r() << std::setw(20) << e.get_n() << std::setw(5) << e.shiro() << "Shou" << std::setw(5) << e.kuro() << "Hai" << std::setw(5) << e.yasumi() << "Kyu" << std::endl;
+      else
+        fout << std::setw(22) << e.get_r() << std::setw(20) << e.get_n() << std::setw(5) << e.shiro() << "Shou" << std::setw(5) << e.kuro() << "Hai" << std::endl;
+    }
+  }
+};
 
-  // std::vector<std::string> split(std::string s, char sep = ' ', char sep2 = '\t')
-  // {
-  //   std::vector<std::string> v;
-  //   auto iter{s.begin()};
-  //   while (iter != s.end())
-  //   {
-  //     /*空白（sep=' '）またはタブ（sep2='\t'）で区切られているsの要素をvに格納．string(iter_first,iter)でiter_firstとiterで指定された文字の一部抽出ができる*/
-  //   }
-  //   return v;
-  // }
-
-  // void import(std::ifstream &fin, Table &table)
-  // { //力士ファイルの取り込み
-  //   Record record;
-  //   int n{0};
-  //   std::string rank, name, score, aite, blank;
-  //   while (fin)
-  //   {
-  //     if (n % 5 == 0)
-  //     {
-  //       /*finからrankを取り出しrecordに格納*/
-  //     }
-  //     else if (n % 5 == 1)
-  //     {
-  //       /*finからnameを取り出しrecordに格納*/
-  //     }
-  //     else if (n % 5 == 2)
-  //     {
-  //       /*finからscoreを取り出しrecordに格納. その際split関数を用いる*/
-  //     }
-  //     else if (n % 5 == 3)
-  //     {
-  //       /*finからaiteを取り出しrecordに格納．その際split関数を用いる*/
-  //       /*recordをtableに追加*/
-  //     }
-  //     else
-  //     {
-  //       getline(fin, blank);
-  //     }
-  //     n++;
-  //   }
+std::vector<std::string> split(std::string s, char sep = ' ', char sep2 = '\t')
+{
+  std::vector<std::string> v;
+  auto iter{s.begin()};
+  while (iter != s.end())
+  {
+    /*空白（sep=' '）またはタブ（sep2='\t'）で区切られているsの要素をvに格納．string(iter_first,iter)でiter_firstとiterで指定された文字の一部抽出ができる*/
+    auto last = iter;
+    while (last != s.end() && *last != sep && *last != sep2)
+      ++last;
+    v.push_back(std::string(iter, last));
+    if (last != s.end())
+      ++last;
+    iter = last;
+  }
+  return v;
 }
 
-int
-main()
+void import(std::ifstream &fin, Table &table)
+{ //力士ファイルの取り込み
+  Record record;
+  int n{0};
+  std::string rank, name, score, aite, blank;
+  while (fin)
+  {
+    if (n % 5 == 0)
+    {
+      /*finからrankを取り出しrecordに格納*/
+      getline(fin, rank);
+      record.set_r(rank);
+    }
+    else if (n % 5 == 1)
+    {
+      /*finからnameを取り出しrecordに格納*/
+      getline(fin, name);
+      record.set_n(name);
+    }
+    else if (n % 5 == 2)
+    {
+      /*finからscoreを取り出しrecordに格納. その際split関数を用いる*/
+      getline(fin, score);
+      record.set_s(split(score));
+    }
+    else if (n % 5 == 3)
+    {
+      /*finからaiteを取り出しrecordに格納．その際split関数を用いる*/
+      /*recordをtableに追加*/
+      getline(fin, aite);
+      record.set_a(split(aite));
+      table.add(record);
+    }
+    else
+    {
+      getline(fin, blank);
+    }
+    n++;
+  }
+}
+
+int main()
 {
   std::ifstream fin("higashi.txt");
   std::ofstream fout("result.txt");
