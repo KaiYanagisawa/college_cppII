@@ -1,21 +1,21 @@
-Maegashira_Jurokumaime              Kaisei  147Shou  148Hai
-  Maegashira_Jugomaime            Toyoyama  139Shou  141Hai
- Maegashira_Juyonmaime            Kotoekou  135Shou  131Hai
- Maegashira_Jusanmaime        Terutsuyoshi  127Shou  124Hai
-  Maegashira_Junimaime           Akiseyama  119Shou  117Hai
-Maegashira_Juichimaime         Chiyotairyu  112Shou  109Hai
-    Maegashira_Jumaime          Midorifuji  106Shou  100Hai
-   Maegashira_Kyumaime         Chiyonokuni  101Shou   90Hai
- Maegashira_Hachimaime          Kotonowaka   93Shou   85Hai
-  Maegashira_Nanamaime         Tochinoshin   87Shou   76Hai
-  Maegashira_Rokumaime           Tamawashi   80Shou   68Hai
-    Maegashira_Gomaime                Endo   75Shou   58Hai
-   Maegashira_Yonmaime          Kiribayama   70Shou   53Hai
-   Maegashira_Sanmaime              Meisei   63Shou   45Hai
-    Maegashira_Nimaime          Hokutofuji   53Shou   40Hai
-     Maegashira_Hittou          Takarafuji   44Shou   34Hai
-              Komusubi            Takayasu   41Shou   22Hai
-              Sekiwake          Terunofuji   31Shou   17Hai
-                OOzeki         Takakeishou   19Shou   14Hai
-                OOzeki             Shoudai    9Shou    9Hai
-              Yokozuna             Hakuhou    2Shou    1Hai
+              Sekiwake          Terunofuji   12Shou    3Hai
+   Maegashira_Sanmaime              Meisei   10Shou    5Hai
+              Komusubi            Takayasu   10Shou    5Hai
+                OOzeki         Takakeishou   10Shou    5Hai
+    Maegashira_Nimaime          Hokutofuji    9Shou    6Hai
+   Maegashira_Kyumaime         Chiyonokuni    8Shou    5Hai    2Kyu
+ Maegashira_Juyonmaime            Kotoekou    8Shou    7Hai
+Maegashira_Jurokumaime              Kaisei    8Shou    7Hai
+ Maegashira_Jusanmaime        Terutsuyoshi    8Shou    7Hai
+   Maegashira_Yonmaime          Kiribayama    7Shou    8Hai
+  Maegashira_Nanamaime         Tochinoshin    7Shou    8Hai
+  Maegashira_Junimaime           Akiseyama    7Shou    8Hai
+                OOzeki             Shoudai    7Shou    8Hai
+ Maegashira_Hachimaime          Kotonowaka    6Shou    9Hai
+Maegashira_Juichimaime         Chiyotairyu    6Shou    9Hai
+    Maegashira_Gomaime                Endo    5Shou    5Hai    5Kyu
+  Maegashira_Rokumaime           Tamawashi    5Shou   10Hai
+    Maegashira_Jumaime          Midorifuji    5Shou   10Hai
+  Maegashira_Jugomaime            Toyoyama    4Shou   10Hai    1Kyu
+     Maegashira_Hittou          Takarafuji    3Shou   12Hai
+              Yokozuna             Hakuhou    2Shou    1Hai   12Kyu

@@ -10,7 +10,7 @@ class Record
 
 public:
   /* コンストラクタを定義*/
-  Record() {}
+  Record() : score{}, aite{} {};
   int shiro()
   {
     int shiro{0};
@@ -39,7 +39,7 @@ public:
     /*やすみの数を計算*/
     for (auto e : score)
     {
-      if (e == "yasumi")
+      if (e == "Yasumi")
         yasumi++;
     }
     return yasumi;
@@ -71,13 +71,11 @@ public:
   }
   void set_s(std::vector<std::string> s)
   { /*scoreに対するセッター*/
-    for (auto e : s)
-      score.push_back(e);
+    score = s;
   }
   void set_a(std::vector<std::string> a)
   { /*aiteに対するセッター*/
-    for (auto e : a)
-      aite.push_back(e);
+    aite = a;
   }
 
   void print()
@@ -122,14 +120,11 @@ public:
       for (size_t j = i + 1; j < v.size(); j++)
       /*勝敗(白星，不戦勝，黒星，不戦敗)によってvをソートする（選択ソート）*/
       {
-        if (v[j].shiro() > v[max].shiro())
+        if (v[max].shiro() > v[j].shiro())
           max = j;
-        else if (v[j].shiro() == v[max].shiro())
-        {
-          if (v[j].kuro() < v[max].kuro())
-            max = j;
-        }
-        std::swap(v[i], v[max]);
+        else if (v[max].shiro() == v[j].shiro() && v[max].kuro() < v[j].kuro())
+          max = j;
+        std::swap(v[j], v[max]);
       }
     }
   }
@@ -166,8 +161,8 @@ std::vector<std::string> split(std::string s, char sep = ' ', char sep2 = '\t')
 void import(std::ifstream &fin, Table &table)
 { //力士ファイルの取り込み
   Record record;
-  int n{0};
   std::string rank, name, score, aite, blank;
+  int n{0};
   while (fin)
   {
     if (n % 5 == 0)
