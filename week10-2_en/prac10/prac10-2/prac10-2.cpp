@@ -22,6 +22,6 @@ int main(int argc, char *argv[])
     //以下で条件を満たすかどうかの判定と結果の出力を行う
     std::sort(a.begin(), a.end());
     std::sort(b.begin(), b.end());
-
+    ///practice
     return 0;
 }
