@@ -3,6 +3,8 @@
 #include <vector>
 #include <algorithm>
 
+bool is_b_big(int x, int y) { return x >= y; }
+
 int main(int argc, char *argv[])
 {
     std::string filename{argc > 1 ? argv[1] : ""};
@@ -20,9 +22,31 @@ int main(int argc, char *argv[])
     for (int i = 0; i < N; ++i)
         infile >> b[i];
     //以下で条件を満たすかどうかの判定と結果の出力を行う
-    std::sort(a.begin(), a.end());
-    std::sort(b.begin(), b.end());
-    ///practice
-    //prac2
+
+    for (int i = 0; i < N; ++i)
+    {
+        if (!is_b_big(b[i], a[i]))
+        {
+            for (int j = 0; j < N; j++)
+            {
+                if (is_b_big(b[j], a[j]) && is_b_big(b[i], a[j]) && is_b_big(b[j], a[i]))
+                    std::swap(a[j], a[i]);
+            }
+        }
+    }
+
+    bool judge{true};
+    for (int i = 0; i < N; ++i)
+    {
+        if (!is_b_big(b[i], a[i]))
+        {
+            judge = false;
+            break;
+        }
+    }
+    if (judge)
+        std::cout << "YES" << std::endl;
+    else
+        std::cout << "NO" << std::endl;
     return 0;
 }
