@@ -3,6 +3,8 @@
 #include <map>
 #include <algorithm>
 #include <vector>
+#include <regex>
+
 int main(int argc, char *argv[])
 {
     if (argc < 2)
@@ -18,9 +20,15 @@ int main(int argc, char *argv[])
     }
     std::cout << "----Read file : " << argv[1] << "\n";
     std::string line{};
-    while (std::getline(ifs, line))
+    std::regex r{"[a-zA-Z+]+"};
+    std::smatch m;
+    while (ifs >> line)
     {
-        std::cout << line << "\n";
+        std::regex_search(line, m, r);
+        for (int i = 0; i < m.size(); i++)
+        {
+            std::cout << m[i].str() << "\n";
+        }
     }
     return 0;
 }
