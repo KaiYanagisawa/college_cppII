@@ -1,0 +1,48 @@
+C++ (/ˌsiːˌplʌsˈplʌs/) is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes".  
+The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. 
+It is almost always implemented as a compiled language, and many vendors provide C++ compilers, 
+including the Free Software Foundation, LLVM, Microsoft, Intel, Oracle, and IBM, so it is available on many platforms.[9]
+
+C++ was designed with an orientation toward system programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights.[10] 
+C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[10] 
+including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes).[11]
+
+C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in December 2020 as ISO/IEC 14882:2020 (informally known as C++20).[12] 
+The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, and C++17 standards. 
+The current C++20 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Danish computer scientist Bjarne Stroustrup at Bell Labs since 1979 as an extension of the C language; 
+he wanted an efficient and flexible language similar to C that also provided high-level features for program organization.[13] 
+Since 2012, C++ has been on a three-year release schedule[14] with C++23 as the next planned standard.[15]
+
+History
+In 1979, Bjarne Stroustrup, a Danish computer scientist, began work on "C with Classes", the predecessor to C++.[16] 
+The motivation for creating a new language originated from Stroustrup's experience in programming for his PhD thesis. 
+Stroustrup found that Simula had features that were very helpful for large software development, but the language was too slow for practical use, while BCPL was fast but too low-level to be suitable for large software development. 
+When Stroustrup started working in AT&T Bell Labs, he had the problem of analyzing the UNIX kernel with respect to distributed computing. 
+Remembering his PhD experience, Stroustrup set out to enhance the C language with Simula-like features.[17] 
+C was chosen because it was general-purpose, fast, portable and widely used. 
+As well as C and Simula's influences, other languages also influenced this new language, including ALGOL 68, Ada, CLU and ML.
+
+Initially, Stroustrup's "C with Classes" added features to the C compiler, Cpre, including classes, derived classes, strong typing, inlining and default arguments.[18]
+
+In 1982, Stroustrup started to develop a successor to C with Classes, which he named "C++" (++ being the increment operator in C) after going through several other names. 
+New features were added, including virtual functions, function name and operator overloading, references, constants, type-safe free-store memory allocation (new/delete), improved type checking, and BCPL style single-line comments with two forward slashes (//). 
+Furthermore, Stroustrup developed a new, standalone compiler for C++, Cfront.
+
+In 1984, Stroustrup implemented the first stream input/output library. 
+The idea of providing an output operator rather than a named output function was suggested by Doug McIlroy[1] (who had previously suggested Unix pipes).
+
+In 1985, the first edition of The C++ Programming Language was released, which became the definitive reference for the language, as there was not yet an official standard.[19] 
+The first commercial implementation of C++ was released in October of the same year.[16]
+
+In 1989, C++ 2.0 was released, followed by the updated second edition of The C++ Programming Language in 1991.[20] New features in 2.0 included multiple inheritance, abstract classes, static member functions, const member functions, and protected members. In 1990, The Annotated C++ Reference Manual was published. This work became the basis for the future standard. Later feature additions included templates, exceptions, namespaces, new casts, and a Boolean type.
+
+
+A quiz on C++11 features being given in Paris in 2015
+In 1998, C++98 was released, standardizing the language, and a minor update (C++03) was released in 2003.
+
+After C++98, C++ evolved relatively slowly until, in 2011, the C++11 standard was released, adding numerous new features, enlarging the standard library further, and providing more facilities to C++ programmers. After a minor C++14 update released in December 2014, various new additions were introduced in C++17.[21] After becoming finalized in February 2020,[22] a draft of the C++20 standard was approved on 4 September 2020 and officially published on 15 December 2020.[23][24]
+
+On January 3, 2018, Stroustrup was announced as the 2018 winner of the Charles Stark Draper Prize for Engineering, "for conceptualizing and developing the C++ programming language".[25]
+
+As of 2021 C++ ranked fourth on the TIOBE index, a measure of the popularity of programming languages, after C, Java, and Python.[26]
+
