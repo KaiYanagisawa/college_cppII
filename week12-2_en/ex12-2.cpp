@@ -22,13 +22,32 @@ int main(int argc, char *argv[])
     std::string line{};
     std::regex r{"[a-zA-Z+]+"};
     std::smatch m;
-    while (ifs >> line)
+    int line_number{0}, word_number{0};
+    std::map<std::string, int> map;
+    while (std::getline(ifs, line))
     {
-        std::regex_search(line, m, r);
-        for (int i = 0; i < m.size(); i++)
+        auto begin{line.cbegin()}, end{line.cend()};
+
+        std::sregex_token_iterator p{begin, end, r, 0};
+        std::sregex_token_iterator e;
+        ++line_number;
+
+        for (; p != e; ++p)
         {
-            std::cout << m[i].str() << "\n";
+            map[*p] += 1;
+            ++word_number;
         }
+        std::cout << "\n";
     }
+    for (auto [k, v] : map)
+    {
+        std::cout << k << " : " << v << "\n";
+    }
+
+    std::cout << "---------\n";
+
+    std::cout << "Total line num : " << line_number << "\n";
+    std::cout << "Total word count : " << word_number << "\n";
+    std::cout << "map.size : " << map.size() << "\n";
     return 0;
 }
