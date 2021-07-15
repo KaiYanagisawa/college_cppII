@@ -1,7 +1,7 @@
 #include <iomanip>
 #include <sstream>
 #include "timedata13-impl.hpp"
-TimeData13::TimeData13(int m, int s) : min{m + s / 60}, sec{s % 60} {}
+TimeData13::TimeData13(int m, int s) : min(m + s / 60), sec(s % 60) {}
 std::string TimeData13::str() const
 {
     std::ostringstream o;

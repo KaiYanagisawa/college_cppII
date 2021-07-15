@@ -1,7 +1,6 @@
 #include <iostream>
-#include "./point.hpp"
+#include "point.hpp"
 #include "point.cpp"
-
 // Pont 操作
 int main()
 {
@@ -21,22 +20,22 @@ int main()
   std::cout << "e: " << e << "\n";
   std::cout << "m: " << m << "\n";
 
-  //(3)入力
-  std::cout << "\n(3)--- Point input\n";
-  std::cout << "before: Point c:" << c << "\n";
-  std::cout << "Input Point c: name, x,y: ";
-  std::cin >> c; // 入力
-  std::cout << "after: Point c:" << c << "\n";
+  // //(3)入力
+  // std::cout << "\n(3)--- Point input\n";
+  // std::cout << "before: Point c:" << c << "\n";
+  // std::cout << "Input Point c: name, x,y: ";
+  // std::cin >> c; // 入力
+  // std::cout << "after: Point c:" << c << "\n";
 
-  //(4)座標の代入設定
-  std::cout << "\n(4)--- Point x,y setting\n";
-  b <= c; //　bへcの座標の代入
-  std::cout << b << "\n";
+  // //(4)座標の代入設定
+  // std::cout << "\n(4)--- Point x,y setting\n";
+  // b <= c; //bへcの座標の代入
+  // std::cout << b << "\n";
 
-  //(5)座標の加算
-  std::cout << "\n(5)--- Point addition\n";
-  m <= (a + b); // Pointの座標の加算, 座標の代入 <=
-  std::cout << a << " + " << b << " = " << m << "\n";
+  // //(5)座標の加算
+  // std::cout << "\n(5)--- Point addition\n";
+  // m <= (a + b); // Pointの座標の加算, 座標の代入 <=
+  // std::cout << a << " + " << b << " = " << m << "\n";
   /*
   //(6)座標の除算  
   std::cout<<"\n(6)--- Point scalar division\n"; 

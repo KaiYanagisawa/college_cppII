@@ -3,7 +3,7 @@ class TimeData8
 {
 public:
     int min{1}, sec{30};
-    TimeData8() { min, sec; }
+    TimeData8() { min = 1, sec = 30; }
     TimeData8(int m, int s)
     {
         min = m + s / 60;

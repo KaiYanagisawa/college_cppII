@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <string>
 
 //i行j列の位置座標の定義
 struct Pos
@@ -18,9 +19,9 @@ private:
     const int row{3};                            //行数（縦の長さ）
     const int column{3};                         //列数（横の長さ）
     const std::vector<Pos> wall{};               //壁（障害物）0個
-    const std::vector<Pos> goal{{0, 0}, {2, 1}}; //ゴール2個
+    const std::vector<Pos> goal{{0, 2}, {1, 0}}; //ゴール2個
     Pos player{2, 0};                            //プレイヤーの初期位置
-    std::vector<Pos> box{{0, 1}, {1, 1}};        //箱2個
+    std::vector<Pos> box{{1, 2}, {1, 1}};        //箱2個
 
 public:
     //フィールドを端末上に表示
@@ -104,6 +105,15 @@ public:
                  });
     }
 
+    void moves(std::string s)
+    {
+        for (int i = 0; i < (int)s.size(); ++i)
+        {
+            char ch = s[i];
+            movec(ch);
+        }
+    }
+
     //Pos型変数を移動する関数nextを受け取りフィールドの状態更新を行う
     template <typename T>
     void move(T next)
@@ -153,6 +163,7 @@ int main()
 {
     Field f; //フィールドの初期化
     char c;
+    char *a;
     f.print(); //初期フィールドの表示
     while (std::cin >> c)
     {
@@ -172,6 +183,12 @@ int main()
                 std::cout << "The work is completed!!\n";
                 break;
             }
+        }
+        else if (c == 's')
+        {
+            std::cin >> a;
+            std::string str = std::string(a);
+            f.moves(str);
         }
         //上記以外の入力の場合は正しい入力候補を表示
         else
