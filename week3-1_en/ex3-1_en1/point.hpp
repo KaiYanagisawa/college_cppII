@@ -7,18 +7,14 @@ public:
     Point(T a, T b) : x{a}, y{b} {}
     bool operator<(const Point<T> &p) const
     {
-        int p1 = (x * x + y * y) * (1 / 2);
-        int p2 = (p.x * p.x + p.y * p.y) * (1 / 2);
-        if (p1 < p2)
-            return p2;
-        else
-            return p1;
+        int p1 = (x * x + y * y);
+        int p2 = (p.x * p.x + p.y * p.y);
+        return p1 < p2;
     }
-    /*
-    bool operator==(const Point<T> &p) const
-    {
-        return x == p.x && y == p.y;
-    }*/
+    // bool operator==(const Point<T> &p) const
+    // {
+    //     return x == p.x && y == p.y;
+    // }
 };
 
 template <typename T>
